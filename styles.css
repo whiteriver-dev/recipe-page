@@ -48,7 +48,7 @@
 .text-preset-4 {
     font-family: 'Outfit';
     font-size: 16px;
-    line-height: 100%;
+    line-height: 150%;
     letter-spacing: 0px;
 }
 
@@ -213,6 +213,7 @@ td {
 .table-value {
     color: var(--brown-800);
     font-weight: 700;
+    line-height: 150%;
 }
 @media (max-width: 376px) {
     .main-container {
