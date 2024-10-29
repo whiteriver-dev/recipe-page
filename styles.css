@@ -128,13 +128,19 @@ ul, ol {
 }
 
 li {
-    padding: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
     color: var(--stone-600);
-    list-style-position:inside;
+    list-style-position:outside;
+    margin-left: 24px;
 }
 
-li span {
-    margin-left: 12px;
+.list-text {
+    display: block;
+    margin-left: 8px;
+    line-height: 1.5;
 }
 
 ol li::marker {
@@ -207,5 +213,7 @@ td {
     .main-container {
         padding-left: 32px;
         padding-right: 32px;
+        margin: 0;
+        border-radius: 0;
     }
 }
