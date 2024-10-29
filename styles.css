@@ -165,7 +165,8 @@ ol li::marker {
 }
 
 .description {
-    color: var(--stone-600)
+    color: var(--stone-600);
+    line-height: 150%;
 }
 
 .prep {
