@@ -192,6 +192,10 @@ ol li::marker {
     gap: 24px;
 }
 
+.nutrition-description {
+    color: var(--stone-600);
+}
+
 td {
     color: var(--stone-600);
     padding-top: 12px;
